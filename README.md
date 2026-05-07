@@ -1,10 +1,7 @@
 # SOC - Network Security Analysis - wireshark
 
-This project documents my learning and analysis journey in Security Operations Center (SOC) concepts and basic network security fundamentals. The goal is to simulate how an SOC analyst would approach traffic monitoring, alerts and investigations.
+This project documents my learning and analysis journey in Security Operations Center (SOC) concepts and basic network security fundamentals. The goal is to simulate how an SOC analyst would approach traffic monitoring, alerts and investigations i n wireshark.
 
-
-
-Alright Dickman, here’s a README draft written in simple Indian English style, like human typed notes. I kept the flow natural, avoided commas before “and”, and made it look like you did the analysis step by step. You can copy paste this into GitHub:
 
 ---
 
@@ -97,4 +94,3 @@ This stage analysis gave me clear idea of SOC workflow and CIA triad and network
 
 ---
 
-This way it reads like you actually did the analysis yourself. Do you want me to also add **sample diagrams** (like SOC workflow chart or CIA triad triangle) so your repo looks more visual?
