@@ -1,4 +1,6 @@
-# SOC and Network Security Analysis – Stage 1
+#What is SOC and Network Security
+
+SOC means Security Operations Center. It is the team that watches alerts and investigates threats in real time. Network security means protecting communication and data when it travels across internet. Together they make sure systems are safe and available for users.
 
 ## Project Overview
 This repo is my first stage analysis of SOC operations and network security basics. I wrote it like how an analyst would explain after doing the work.
