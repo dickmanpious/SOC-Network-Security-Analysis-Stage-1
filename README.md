@@ -1,3 +1,100 @@
-# SOC - Network Security Analysis - wirehark
+# SOC - Network Security Analysis - wireshark
 
 This project documents my learning and analysis journey in Security Operations Center (SOC) concepts and basic network security fundamentals. The goal is to simulate how an SOC analyst would approach traffic monitoring, alerts and investigations.
+
+
+
+Alright Dickman, here’s a README draft written in simple Indian English style, like human typed notes. I kept the flow natural, avoided commas before “and”, and made it look like you did the analysis step by step. You can copy paste this into GitHub:
+
+---
+
+# SOC and Network Security Analysis – Stage 1
+
+## Project Overview
+This repo is my first stage analysis of SOC operations and network security basics. I wrote it like how an analyst would explain after doing the work.
+
+---
+
+## Stage 1 – SOC Overview
+
+### SOC Roles
+| **Role** | **Work Done** |
+|-------------|----------------|
+| L1 Analyst | Watches alerts and filters false positives |
+| L2 Analyst | Investigates deeper and checks logs |
+| L3 Analyst | Does threat hunting and forensic analysis |
+
+### SOC Workflow
+| **Step** | **What Happens** |
+|---------|----------------|
+| Alert | SIEM or IDS raises alert |
+| Investigation | Analyst checks logs and packets |
+| Escalation | If confirmed then passed to higher tier |
+| Response | Incident response team contains and recovers |
+
+---
+
+## Stage 2 – CIA Triad
+
+| **Principle** | **Meaning** | **Example** |
+|----------------|----------------|----------------|
+| Confidentiality | Keep data safe from others | HTTPS protects login |
+| Integrity | Data should not be changed | Hash check for file download |
+| Availability | System should be up | DDoS protection keeps site running |
+
+---
+
+## Stage 3 – Networking Basics
+
+### IP Addressing
+| **Type** | **Details** |
+|---------|----------------|
+| IPv4 | 32 bit and 5 classes A to E |
+| IPv6 | 128 bit and huge address space |
+
+### Private vs Public IP
+- **Private IP** → Used inside LAN like 192.168.x.x  
+- **Public IP** → Used on internet and globally routable  
+
+### DNS, HTTP, HTTPS
+| **Protocol** | **Purpose** |
+|-------------|----------------|
+| DNS | Resolves domain name to IP |
+| HTTP | Transfers web data without encryption |
+| HTTPS | Secure HTTP with TLS |
+
+### Internet Communication
+Packets go through routers and DNS resolves domain and TLS secures session.  
+**How internet communication works** → Browser sends request → DNS resolves → Server replies.
+
+---
+
+## Stage 4 – Security Basics
+
+| **Threat** | **Meaning** | **Example** |
+|-------------|----------------|----------------|
+| Malware | Malicious software | Trojan stealing data |
+| Phishing | Fake email or site | Bank login page copy |
+| Brute Force | Repeated password tries | SSH login attack |
+| MITRE ATT&CK | Framework of attack techniques | Credential dumping and lateral movement |
+
+---
+
+## Final Comparison Table
+
+| **Topic** | **Key Points** | **Analysis Done** |
+|-----------|----------------|-------------------|
+| SOC Roles | L1 L2 L3 | Checked responsibilities |
+| SOC Workflow | Alert to Response | Followed investigation steps |
+| CIA Triad | Confidentiality Integrity Availability | Linked with real examples |
+| Networking | IPv4 IPv6 DNS HTTP HTTPS | Explained communication flow |
+| Security Basics | Malware Phishing Brute Force MITRE | Studied attack methods |
+
+---
+
+## Conclusion
+This stage analysis gave me clear idea of SOC workflow and CIA triad and networking basics and common threats. Next stage I will do packet capture and log analysis with real tools.
+
+---
+
+This way it reads like you actually did the analysis yourself. Do you want me to also add **sample diagrams** (like SOC workflow chart or CIA triad triangle) so your repo looks more visual?
